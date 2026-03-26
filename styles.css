@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+/* When the body is hovered, turn ALL squares coffee */
+body:hover .square {
+    background-color: #6F4E37;
+}
+
+/* BUT, keep the specifically hovered square lavender */
+body .square:hover {
+    background-color: #E6E6FA;
+}
